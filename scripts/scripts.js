@@ -59,3 +59,14 @@ $(".our_services_carousel").slick({
   autoplaySpeed: 3000,
   arrows: false,
 });
+$(".reviews_carousel").slick({
+  infinite: true,
+  slidesToShow: 2,
+  slidesToScroll: 2,
+  dots: true,
+  autoplay: true,
+  autoplaySpeed: 3000,
+
+  prevArrow: $(".car_left_arrow"),
+  nextArrow: $(".car_right_arrow"),
+});
