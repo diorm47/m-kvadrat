@@ -48,3 +48,14 @@ $(function () {
     }
   );
 });
+
+// main page carousel
+$(".our_services_carousel").slick({
+  infinite: true,
+  slidesToShow: 2,
+  slidesToScroll: 2,
+  dots: true,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  arrows: false,
+});
