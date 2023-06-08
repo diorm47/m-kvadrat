@@ -1,0 +1,16 @@
+@font-face {
+  font-family: bebasNeue;
+  src: url(../fonts/BebasNeue\ Regular.otf);
+}
+@font-face {
+    font-family: bebasNeue300;
+    src: url(../fonts/BebasNeue\ Light.ttf);
+  }
+@font-face {
+  font-family: rfdewi300;
+  src: url(../fonts/RFDewiCondensed-Light.ttf);
+}
+@font-face {
+  font-family: rfdewi700;
+  src: url(../fonts/RFDewiCondensed-Bold.ttf);
+}
