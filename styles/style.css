@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 body {
   font-family: rfdewi300;
@@ -501,12 +501,15 @@ nav {
   margin-left: 15px;
 }
 .block_template_3 {
-  margin-bottom: 220px;
+  margin-bottom: 120px;
 }
 
 .command_block {
   padding-top: 100px;
   padding-bottom: 60px;
+}
+.command_block .block_title {
+  margin-bottom: 120px;
 }
 
 .partners_block {
@@ -552,4 +555,77 @@ nav {
 }
 .contacts_block a {
   text-decoration: none;
+}
+
+.comand_simple_item .com_car_title h3 {
+  font-weight: 700;
+  font-size: 40px;
+  font-family: rfdewi700;
+  line-height: 40px;
+  color: #008a91;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.com_car_block {
+  width: 380px !important;
+  height: 326px !important;
+  background: rgba(0, 138, 145, 0.33);
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.com_car_block h4 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  margin-bottom: 7px;
+  font-family: rfdewi300;
+  color: #000000;
+}
+.com_car_block p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  font-family: rfdewi700;
+  color: #000000;
+}
+
+.comand_boss_item_wrapper {
+  display: flex;
+}
+.comand_boss_item {
+  width: 590px !important;
+}
+.comand_boss_item_wrapper {
+  background: #008a91;
+}
+
+.comand_carousel .slick-current {
+  position: relative;
+  z-index: 141;
+  margin-right: -75px;
+  margin-left: -75px;
+}
+.comand_carousel .slick-current .comand_boss_item_wrapper,
+.comand_carousel .slick-current .com_car_block {
+  height: 400px !important;
+}
+.comand_carousel {
+  display: flex;
+  position: relative;
+}
+.slick-track {
+  display: flex !important;
+  align-items: center !important;
+}
+.command_block .car_left_arrow,
+.command_block .car_right_arrow {
+  top: 48%;
 }

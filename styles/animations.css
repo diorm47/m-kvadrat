@@ -78,3 +78,55 @@
     margin-left: 80px;
   }
 }
+
+.temp_left_bot img {
+  transition: all 1s ease;
+}
+
+.temp_left_bot img:hover {
+  transition: all 1s ease;
+  transform: scale(1.1);
+}
+.car_left_arrow .pulse_phone,
+.car_right_arrow .pulse_phone,
+.comand_simple_item .pulse_phone {
+  transition: all 0.5s ease;
+}
+.car_left_arrow .pulse_phone:hover,
+.car_right_arrow .pulse_phone:hover {
+  transition: all 0.5s ease;
+  transform: scale(1.1);
+}
+
+.com_car_block .pulse_phone {
+  width: 136px;
+  height: 136px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+.comand_boss_item .pulse_phone {
+  width: 176px;
+  height: 176px;
+}
+.comand_boss_item .pulse_phone::before {
+  animation: pulse_block 2s linear infinite;
+}
+.com_car_block .pulse_phone::before {
+  animation: pulse_block 2s linear infinite;
+}
+.com_car_block .pulse_phone::before {
+  border: 1px solid #bcb6b6;
+}
+@keyframes pulse_block {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+}

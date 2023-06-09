@@ -70,3 +70,31 @@ $(".reviews_carousel").slick({
   prevArrow: $(".car_left_arrow"),
   nextArrow: $(".car_right_arrow"),
 });
+
+$(".comand_carousel").slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  dots: true,
+  autoplay: true,
+  autoplaySpeed: 50000,
+  centerMode: true,
+  variableWidth: true,
+  // centerPadding: "60px",
+  slidesToShow: 3,
+
+  prevArrow: $(".left_command_arr"),
+  nextArrow: $(".right_command_arr"),
+});
+
+$(".costs_carousel").slick({
+  infinite: true,
+  slidesToShow: 4,
+  slidesToScroll: 2,
+  dots: true,
+  autoplay: true,
+  autoplaySpeed: 50000,
+
+  prevArrow: $(".car_cost_left"),
+  nextArrow: $(".car_cost_right"),
+});

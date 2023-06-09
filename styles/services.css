@@ -1,0 +1,80 @@
+.services_page nav p {
+  color: #2c3242;
+}
+.services_page .header_blue_line {
+  width: 165px;
+}
+.services_page_header {
+  padding: 100px 0 0;
+  flex-direction: column;
+}
+.services_page_header .templ_right {
+  width: 500px;
+  margin-bottom: 40px;
+}
+.ser_block {
+  margin: 70px auto 100px;
+}
+.ser_block .temp_left {
+  margin-right: 20px;
+}
+.costs_carousel_item {
+  width: 287px !important;
+}
+.costs_carousel_item img {
+  width: 287px;
+  margin-bottom: 15px;
+}
+.costs_carousel_item div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.costs_carousel_item p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  font-family: rfdewi300;
+
+  color: #000000;
+}
+.costs_carousel_item span {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: rfdewi700;
+
+  color: #000000;
+}
+.costs_carousel .costs_carousel_item {
+  margin-right: 15px;
+}
+.costs_carousel_wrapper {
+  position: relative;
+  margin-top: 55px;
+  margin-bottom: 50px;
+}
+.costs_carousel_wrapper .car_left_arrow {
+  left: -17px;
+  top: 31%;
+}
+.costs_carousel_wrapper .car_cost_right {
+  right: -25px;
+  top: 31%;
+}
+.command_costs_title {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.costs_command_car .left_command_arr,
+.costs_command_car .right_command_arr {
+  top: 48%;
+}
+
+.costs_command_car .slick-dots {
+  display: none !important;
+}
+.services_page .block_template_3 .header_blue_line {
+  width: 86px;
+}
