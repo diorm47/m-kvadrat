@@ -16,44 +16,11 @@ body {
   background-size: cover;
   padding-bottom: 40px;
 }
-nav {
-  width: 100%;
-}
-.main_wrapper {
-  width: 1200px;
-  margin: 0 auto;
+.page_title_template {
+  padding-top: 100px;
+  padding-bottom: 45px;
 }
 
-.nav_wrapper {
-  padding-top: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.nav_left_block,
-.nav_phone {
-  display: flex;
-  align-items: center;
-}
-.nav_logo {
-  margin-right: 25px;
-}
-
-.nav_links {
-  display: flex;
-  align-items: center;
-}
-.nav_links a {
-  text-decoration: none;
-  margin: 0 28px;
-}
-.nav_links a p {
-  font-style: normal;
-  font-size: 17px;
-  line-height: 19px;
-  color: #ffffff;
-  font-family: rfdewi700;
-}
 .pulse_phone {
   position: relative;
   display: flex;
@@ -68,19 +35,7 @@ nav {
 .pulse_phone img {
   background: transparent;
 }
-.nav_phone a {
-  text-decoration: none;
-}
-.nav_phone .nav_phone_number {
-  margin-right: 46px;
-}
-.nav_phone a p {
-  font-style: normal;
-  font-size: 24px;
-  line-height: 24px;
-  color: #ffffff;
-  font-family: rfdewi700;
-}
+
 .header_blue_line {
   width: 165px;
   height: 3px;
@@ -89,7 +44,7 @@ nav {
 }
 
 .header_block {
-  margin-top: 120px;
+  margin-top: 120px !important;
 }
 .heder_title h2 {
   font-size: 48px;
@@ -181,7 +136,7 @@ nav {
 }
 
 .our_services {
-  margin-top: 60px;
+  margin-top: 60px !important;
   padding-top: 20px;
   padding-bottom: 15px;
 }
@@ -308,8 +263,8 @@ nav {
   width: 694px;
 }
 .block_template_1 {
-  margin-top: 110px;
-  margin-bottom: 175px;
+  padding-top: 110px;
+  padding-bottom: 175px;
 }
 .block_template_1 .temp_left {
   margin-right: 20px;
@@ -368,7 +323,7 @@ nav {
   margin-right: 20px;
 }
 .reviews_block {
-  margin-top: 185px;
+  padding-top: 185px;
 }
 .reviews_carousel {
   margin-top: 40px;
@@ -469,7 +424,7 @@ nav {
   z-index: 111;
 }
 .block_template_3 {
-  margin-top: 180px;
+  padding-top: 180px;
 }
 
 .block_template_3 {
@@ -501,7 +456,7 @@ nav {
   margin-left: 15px;
 }
 .block_template_3 {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 .command_block {
@@ -540,8 +495,8 @@ nav {
   width: 463px;
 }
 .block_template_5 {
-  margin-top: 60px;
-  margin-bottom: 100px;
+  padding-top: 60px;
+  padding-bottom: 100px;
 }
 .block_template_5 .temp_left {
   margin-right: 20px;

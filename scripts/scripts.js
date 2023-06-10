@@ -77,7 +77,7 @@ $(".comand_carousel").slick({
   slidesToScroll: 1,
   dots: true,
   autoplay: true,
-  autoplaySpeed: 50000,
+  autoplaySpeed: 5000,
   centerMode: true,
   variableWidth: true,
   // centerPadding: "60px",
@@ -93,7 +93,7 @@ $(".costs_carousel").slick({
   slidesToScroll: 2,
   dots: true,
   autoplay: true,
-  autoplaySpeed: 50000,
+  autoplaySpeed: 3000,
 
   prevArrow: $(".car_cost_left"),
   nextArrow: $(".car_cost_right"),

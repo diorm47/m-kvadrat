@@ -1,0 +1,48 @@
+.cases_gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cases_gallery_item {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+}
+.cases_gallery_item img {
+  width: 100%;
+  transition: all 1s ease;
+}
+.cases_gallery_item img:hover {
+  transition: all 1s ease;
+  transform: scale(1.07);
+}
+.cases_gallery_item p {
+  position: absolute;
+  z-index: 111;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: rfdewi300;
+  color: #ffffff;
+  bottom: 0;
+  padding: 0 15px 25px 15px;
+}
+.cases_gallery_item_1 {
+  width: 488px;
+  height: 349px;
+}
+.cases_gallery_item_3 {
+  width: 488px;
+  height: 590px;
+}
+.cases_gallery_item_2 {
+  width: 693px;
+  height: 582px;
+}
+
+.show_more_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}

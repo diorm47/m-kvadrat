@@ -1,0 +1,56 @@
+nav {
+  width: 100%;
+}
+.main_wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+.nav_white p {
+  color: #2c3242 !important;
+}
+.nav_white .header_blue_line {
+  width: 165px;
+}
+.nav_wrapper {
+  padding-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_left_block,
+.nav_phone {
+  display: flex;
+  align-items: center;
+}
+.nav_logo {
+  margin-right: 25px;
+}
+
+.nav_links {
+  display: flex;
+  align-items: center;
+}
+.nav_links a {
+  text-decoration: none;
+  margin: 0 28px;
+}
+.nav_links a p {
+  font-style: normal;
+  font-size: 17px;
+  line-height: 19px;
+  color: #ffffff;
+  font-family: rfdewi700;
+}
+.nav_phone a {
+  text-decoration: none;
+}
+.nav_phone .nav_phone_number {
+  margin-right: 46px;
+}
+.nav_phone a p {
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: rfdewi700;
+}
