@@ -61,6 +61,7 @@ body {
   margin-bottom: 25px;
 }
 
+
 .header_text p {
   font-style: normal;
   font-weight: 500;
@@ -468,7 +469,7 @@ body {
 }
 
 .partners_block {
-  padding-top: 60px;
+  padding-top: 80px;
   padding-bottom: 60px;
 }
 .partners_block .block_title {

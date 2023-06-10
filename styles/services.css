@@ -28,20 +28,21 @@
 .costs_carousel_item div {
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: space-between;
 }
 .costs_carousel_item p {
   font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
-
+  font-size: 17px;
+  line-height: 100%;
+  text-align: center;
   font-family: rfdewi300;
 
   color: #000000;
 }
 .costs_carousel_item span {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 24px;
   font-family: rfdewi700;
 

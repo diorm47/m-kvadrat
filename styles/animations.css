@@ -130,3 +130,24 @@
     opacity: 0;
   }
 }
+
+.comand_carousel img,
+.costs_carousel img {
+  transition: all 1s ease;
+}
+.comand_carousel img:hover,
+.costs_carousel img:hover {
+  transform: scale(1.08);
+  transition: all 1s ease;
+}
+.costs_carousel_item {
+  overflow: hidden;
+}
+
+.nav_wrapper  p {
+ transition: all 1s ease;
+}
+.nav_wrapper  p:hover {
+  transition: all 1s ease;
+  text-decoration: underline;
+ }

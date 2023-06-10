@@ -1,0 +1,18 @@
+.articlse_item_wrapper {
+  display: flex;
+}
+.articlse_item_wrapper img {
+  width: 693px;
+}
+.articlse_item_wrapper p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: rfdewi300;
+  color: #000000;
+  margin-right: 20px;
+}
+.article_page {
+    padding-top: 120px;
+}

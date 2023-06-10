@@ -1,0 +1,22 @@
+.comand_wrapper img {
+  margin-bottom: 45px;
+}
+.comand_wrapper p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: rfdewi300;
+  color: #000000;
+}
+.our_company_cards {
+  padding-top: 100px;
+  padding-bottom: 114px;
+}
+.our_company_cards .header_card {
+  background: #94dbe4;
+  backdrop-filter: blur(10.5px);
+}
+.our_company_cards .header_card p {
+  color: #000000;
+}

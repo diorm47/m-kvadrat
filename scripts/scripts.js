@@ -98,3 +98,49 @@ $(".costs_carousel").slick({
   prevArrow: $(".car_cost_left"),
   nextArrow: $(".car_cost_right"),
 });
+
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.querySelector(".nav_block").style.padding = "8px 0";
+    // var elements = document.querySelectorAll(".nav_block p");
+    // for (var i = 0; i < elements.length; i++) {
+    //   elements[i].style.color = "white";
+    // }
+
+    document.querySelector(".nav_block").style.background =
+      "rgb(0 153 161 / 94%)";
+  } else {
+    document.querySelector(".nav_block").style.padding = "25px 0";
+    document.querySelector(".nav_block").style.background = "transparent";
+    // var elements = document.querySelectorAll(".nav_black p");
+    // for (var i = 0; i < elements.length; i++) {
+    //   elements[i].style.color = "#2c3242";
+    // }
+  }
+}
+
+// navigations
+
+var reviews_block = document.querySelector(".reviews_block");
+var scroll_to_reviews_block = document.querySelector(
+  ".scroll_to_reviews_block"
+);
+function scrollToReviewsBlock() {
+  reviews_block.scrollIntoView({ behavior: "smooth" });
+}
+scroll_to_reviews_block.addEventListener("click", scrollToReviewsBlock);
+
+var partners_block = document.querySelector(".partners_block ");
+var scroll_to_partners_block = document.querySelector(
+  ".scroll_to_partners_block "
+);
+
+function scrollToPartnersBlock() {
+  partners_block.scrollIntoView({ behavior: "smooth" });
+}
+
+scroll_to_partners_block.addEventListener("click", scrollToPartnersBlock);
