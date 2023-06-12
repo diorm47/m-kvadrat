@@ -49,3 +49,45 @@
 .cases_page {
   margin-bottom: 100px;
 }
+
+@media only screen and (max-width: 500px) {
+  .cases_gallery {
+    flex-direction: column;
+  }
+  .cases_gallery div {
+    width: 100%;
+  }
+  .cases_gallery_item_1,
+  .cases_gallery_item_2,
+  .cases_gallery_item_3,
+  .cases_gallery_item_4 {
+    height: 350px;
+  }
+
+  .cases_gallery_item img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .show_more_btn {
+    margin-top: 0;
+  }
+  .show_more_btn .temp_button {
+    margin-top: 45px;
+  }
+  .show_more_btn .temp_button button {
+    margin-bottom: 0;
+  }
+  .casescost_page {
+    display: none;
+  }
+  .cases_page_wrapper .block_template_3,
+  .cases_page_wrapper .partners_block,
+  .cases_page_wrapper .block_template_5 {
+    padding-top: 0;
+  }
+  .cases_page_wrapper .cases_page {
+    margin-bottom: 90px;
+  }
+}

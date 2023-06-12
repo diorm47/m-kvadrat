@@ -79,3 +79,37 @@
 .services_page .block_template_3 .header_blue_line {
   width: 86px;
 }
+
+@media only screen and (max-width: 500px) {
+  .services_page_header .templ_right {
+    width: 100%;
+  }
+  .services_page_header {
+    padding-top: 45px;
+    flex-direction: column;
+  }
+  .services_page_header .block_title {
+    flex-direction: column-reverse;
+    text-align: left;
+    align-items: start;
+  }
+  .services_page_header .block_title .header_blue_line {
+    margin-left: 0;
+    margin-bottom: 25px;
+    width: 165px !important;
+  }
+  .services_page_header .services_icons {
+    display: none;
+  }
+  .ser_block {
+    margin-top: 0;
+  }
+  .services_page_header .templ_right {
+    margin-bottom: 0;
+  }
+
+  .services_page .command_costs_title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+}

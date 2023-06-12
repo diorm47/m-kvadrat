@@ -61,7 +61,7 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    width: 172px;
+    width: 165px;
     height: 108px;
     padding: 10px 20px 10px 20px;
   }
@@ -84,7 +84,7 @@
     padding-bottom: 0px;
   }
   .block_title h3 {
-    font-size: 32px;
+    font-size: 29px;
     line-height: 32px;
   }
   .our_services_car_item {
@@ -120,7 +120,7 @@
     margin-top: 40px;
   }
   .services_icons_block {
-    width: 170px;
+    width: 160px;
     height: 120px;
     margin-top: 60px;
     background: rgba(0, 138, 145, 0.2);
@@ -295,8 +295,25 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
-    
+
     color: #000000;
-    font-family: rfdewi700;    
+    font-family: rfdewi700;
+  }
+
+  .page_title_template {
+    padding-top: 45px;
+    padding-bottom: 80px;
+    flex-direction: column-reverse;
+    text-align: left;
+    align-items: start;
+  }
+  .page_title_template .header_blue_line {
+    margin-left: 0;
+    width: 165px;
+    margin-bottom: 25px;
+  }
+  .page_title_template h3 {
+    font-size: 35px;
+    line-height: 35px;
   }
 }
