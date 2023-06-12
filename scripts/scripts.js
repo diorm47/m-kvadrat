@@ -58,17 +58,55 @@ $(".our_services_carousel").slick({
   autoplay: true,
   autoplaySpeed: 3000,
   arrows: false,
+  mobileFirst: true,
+  responsive: [
+    {
+      breakpoint: 1500,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        mobileFirst: true,
+      },
+    },
+    {
+      breakpoint: 500,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        mobileFirst: true,
+      },
+    },
+  ],
 });
 $(".reviews_carousel").slick({
   infinite: true,
   slidesToShow: 2,
   slidesToScroll: 2,
   dots: true,
-  autoplay: true,
+  // autoplay: true,
   autoplaySpeed: 3000,
 
   prevArrow: $(".car_left_arrow"),
   nextArrow: $(".car_right_arrow"),
+  mobileFirst: true,
+  responsive: [
+    {
+      breakpoint: 1500,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        mobileFirst: true,
+      },
+    },
+    {
+      breakpoint: 500,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        mobileFirst: true,
+      },
+    },
+  ],
 });
 
 $(".comand_carousel").slick({
@@ -144,3 +182,15 @@ function scrollToPartnersBlock() {
 }
 
 scroll_to_partners_block.addEventListener("click", scrollToPartnersBlock);
+
+var navItems = document.querySelectorAll(".nav_links a");
+for (var i = 0; i < navItems.length; i++) {
+  if (navItems[i].href == window.location.href) {
+    navItems[i].className = "active_nav_menu";
+  }
+}
+
+function toggleMenu() {
+  var element = document.querySelector(".nav_mob_menu");
+  element.classList.toggle("mob_menu_wrapper");
+}

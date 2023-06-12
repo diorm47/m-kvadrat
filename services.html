@@ -19,14 +19,55 @@
   </head>
   <body>
     <div class="services_page">
-      <nav>
-        <div class="nav_block ">
-        <div class="nav_wrapper main_wrapper ">
-          <div class="nav_left_block">
-            <div class="nav_logo">
-              <a href="./index.html">
-                <img src="./assets/nav-logo.svg" alt="Логотип сайта" />
+      <nav class="nav_white">
+        <div class="nav_block">
+          <div class="nav_wrapper main_wrapper">
+            <div class="nav_left_block">
+              <div class="nav_logo">
+                <a href="./index.html">
+                  <img src="./assets/nav-logo.svg" alt="Логотип сайта" />
+                </a>
+              </div>
+              <div class="nav_links">
+                <a href="./services.html"><p>Услуги</p></a>
+                <a href="./cases.html"><p>Объекты</p></a>
+                <div class="scroll_to_reviews_block"><p>Отзывы</p></div>
+
+                <a href="./our-company.html"><p>Команда</p></a>
+                <div class="scroll_to_partners_block"><p>Партнеры</p></div>
+
+                <a href="./contacts.html"><p>Контакты</p></a>
+              </div>
+            </div>
+            <div class="nav_phone">
+              <div class="nav_phone_number">
+                <a href="tel:+79999999999"><p>+ 7 (999) 999-99-99</p></a>
+              </div>
+              <a href="tel:+79999999999">
+                <div class="pulse_phone">
+                  <img
+                    src="./assets/icons/nav-phone-icon.svg"
+                    alt="phone icon"
+                  />
+                </div>
               </a>
+            </div>
+            <div class="nav_menu" onclick="toggleMenu()">
+              <img
+                src="./assets/icons/menu.svg"
+                class="black_burger"
+                alt="nav menu"
+              />
+              <img
+                src="./assets/icons/burger_menu.svg"
+                class="white_burger"
+                alt="nav menu"
+              />
+            </div>
+          </div>
+          <div class="nav_mob_menu">
+            <div class="close_menu" onclick="toggleMenu()">
+              <img src="./assets/icons/close_menu.svg" alt="close_menu" />
             </div>
             <div class="nav_links">
               <a href="./services.html"><p>Услуги</p></a>
@@ -38,19 +79,11 @@
 
               <a href="./contacts.html"><p>Контакты</p></a>
             </div>
-          </div>
-          <div class="nav_phone">
             <div class="nav_phone_number">
               <a href="tel:+79999999999"><p>+ 7 (999) 999-99-99</p></a>
             </div>
-            <a href="tel:+79999999999">
-              <div class="pulse_phone">
-                <img src="./assets/icons/nav-phone-icon.svg" alt="phone icon" />
-              </div>
-            </a>
           </div>
         </div>
-      </div>
       </nav>
       <div class="block_template services_page_header main_wrapper">
         <div class="templ_right">

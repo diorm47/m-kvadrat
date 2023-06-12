@@ -151,3 +151,11 @@
   transition: all 1s ease;
   text-decoration: underline;
  }
+ @keyframes from_right {
+  0% {
+    transform: translateX(150%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

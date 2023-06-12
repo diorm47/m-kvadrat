@@ -6,6 +6,9 @@
 a {
   text-decoration: none;
 }
+html {
+  overflow-x: hidden;
+}
 body {
   font-family: rfdewi300;
 }
@@ -172,6 +175,10 @@ body {
   border-radius: 7px;
   padding: 0 24px;
   margin-right: 20px;
+}
+.hided_element {
+  display: none;
+  
 }
 
 .our_services_car_item img {

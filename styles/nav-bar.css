@@ -43,7 +43,8 @@ nav {
   display: flex;
   align-items: center;
 }
-.nav_links a, .nav_links div {
+.nav_links a,
+.nav_links div {
   text-decoration: none;
   margin: 0 28px;
   cursor: pointer;
@@ -67,4 +68,100 @@ nav {
   line-height: 24px;
   color: #ffffff;
   font-family: rfdewi700;
+}
+.active_nav_menu p {
+  text-decoration: underline;
+}
+
+.nav_list_wrapper .close_menu,
+.nav_list_wrapper .nav_logo,
+.nav_list_wrapper .mob_menu_overlay {
+  display: none;
+}
+.nav_menu,
+.close_menu,
+.nav_mob_menu {
+  display: none;
+}
+@media only screen and (max-width: 500px) {
+  .nav_menu {
+    display: block;
+    position: absolute;
+
+    right: 15px;
+    cursor: pointer;
+    z-index: 200;
+  }
+  .nav_wrapper .nav_phone {
+    margin-right: 65px;
+  }
+  .mob_menu_wrapper {
+    display: flex !important;
+    align-items: start;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 300px !important;
+
+    background: #0099a1f0;
+    color: #ffffff;
+    z-index: 999;
+    padding-left: 30px;
+    padding-top: 60px;
+  }
+  .mob_menu_wrapper .nav-link {
+    color: #fff;
+  }
+  .mob_menu_wrapper .close_menu,
+  .mob_menu_wrapper .nav_logo,
+  .mob_menu_wrapper .mob_menu_overlay {
+    display: flex;
+  }
+  .close_menu {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    cursor: pointer;
+    z-index: 2002;
+  }
+  .mob_menu_wrapper {
+    transform: translateX(-150%);
+    animation: from_right 0.3s forwards;
+  }
+  .nav_wrapper .nav_left_block .nav_links,
+  .nav_wrapper .nav_phone .nav_phone_number {
+    display: none;
+  }
+  .nav_mob_menu .nav_links {
+    margin-top: 40px;
+  }
+  .nav_mob_menu div {
+    display: flex;
+    flex-direction: column;
+    text-align-last: left;
+    align-items: flex-start;
+  }
+  .nav_mob_menu .nav_links a,
+  .nav_mob_menu .nav_links div {
+    margin: 0;
+    margin: 8px 0;
+  }
+  .nav_mob_menu p {
+    color: #ffffff !important;
+  }
+  .nav_mob_menu .nav_phone_number p {
+    margin-top: 15px;
+    font-style: normal;
+    font-size: 19px;
+    line-height: 19px;
+    color: #ffffff !important;
+    font-family: rfdewi700;
+  }
+}
+.header_wrapper .black_burger,
+.nav_white .white_burger {
+  display: none;
 }
