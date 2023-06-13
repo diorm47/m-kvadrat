@@ -20,3 +20,13 @@
 .our_company_cards .header_card p {
   color: #000000;
 }
+@media only screen and (max-width: 500px) {
+  .comand_wrapper img {
+    width: 100%;
+    object-fit: cover;
+    height: 326px;
+  }
+  .our_company  .command_block  {
+    margin-top: 100px;
+  }
+}

@@ -50,7 +50,7 @@ $(function () {
 });
 
 // main page carousel
-$(".our_services_carousel").slick({
+$(".our_services_carousel_car").slick({
   infinite: true,
   slidesToShow: 2,
   slidesToScroll: 2,
@@ -58,25 +58,17 @@ $(".our_services_carousel").slick({
   autoplay: true,
   autoplaySpeed: 3000,
   arrows: false,
-  mobileFirst: true,
-  responsive: [
-    {
-      breakpoint: 1500,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        mobileFirst: true,
-      },
-    },
-    {
-      breakpoint: 500,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        mobileFirst: true,
-      },
-    },
-  ],
+  mobileFirst: true
+});
+$(".our_services_carousel_mob").slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  dots: true,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  arrows: false,
+  mobileFirst: true
 });
 $(".reviews_carousel").slick({
   infinite: true,
@@ -114,7 +106,7 @@ $(".comand_carousel").slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   dots: true,
-  autoplay: true,
+  // autoplay: true,
   autoplaySpeed: 5000,
   centerMode: true,
   variableWidth: true,
@@ -140,7 +132,6 @@ $(".costs_carousel").slick({
 window.onscroll = function () {
   scrollFunction();
 };
-
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     document.querySelector(".nav_block").style.padding = "8px 0";
@@ -161,35 +152,19 @@ function scrollFunction() {
   }
 }
 
-// navigations
 
-var reviews_block = document.querySelector(".reviews_block");
-var scroll_to_reviews_block = document.querySelector(
-  ".scroll_to_reviews_block"
-);
-function scrollToReviewsBlock() {
-  reviews_block.scrollIntoView({ behavior: "smooth" });
-}
-scroll_to_reviews_block.addEventListener("click", scrollToReviewsBlock);
-
-var partners_block = document.querySelector(".partners_block ");
-var scroll_to_partners_block = document.querySelector(
-  ".scroll_to_partners_block "
-);
-
-function scrollToPartnersBlock() {
-  partners_block.scrollIntoView({ behavior: "smooth" });
-}
-
-scroll_to_partners_block.addEventListener("click", scrollToPartnersBlock);
-
+// Navigation active 
 var navItems = document.querySelectorAll(".nav_links a");
 for (var i = 0; i < navItems.length; i++) {
   if (navItems[i].href == window.location.href) {
     navItems[i].className = "active_nav_menu";
+    console.log('window.location.href', window.location.href);
+    console.log(navItems[i].href);
   }
 }
 
+
+// Mobile menu wrpper
 function toggleMenu() {
   var element = document.querySelector(".nav_mob_menu");
   element.classList.toggle("mob_menu_wrapper");

@@ -14,5 +14,30 @@
   margin-right: 20px;
 }
 .article_page {
-    padding-top: 120px;
+  padding-top: 120px;
+}
+
+@media only screen and (max-width: 500px) {
+  .articlse_item_wrapper {
+    flex-direction: column-reverse;
+  }
+  .articlse_item_wrapper img {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .articlse_item_wrapper p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: rfdewi300;
+    color: #030303;
+    margin-right: 0;
+  }
+  .article_page {
+    padding-top: 0;
+  }
+  .cases_page_item {
+    margin-bottom: 50px;
+  }
 }

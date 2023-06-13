@@ -316,4 +316,28 @@
     font-size: 35px;
     line-height: 35px;
   }
+  .our_services_carousel_mob {
+    display: block !important;
+  }
+  .our_services_carousel_car {
+    display: none !important;
+  }
+  .comand_boss_item {
+    width: 100% !important;
+    margin: 0;
+  }
+  .command_block .car_left_arrow,
+  .command_block .car_right_arrow {
+    display: none !important;
+  }
+  .comand_carousel .slick-current {
+    position: relative;
+    z-index: 141;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .comand_carousel_mob {
+    display: block !important; 
+  }
+
 }

@@ -64,7 +64,6 @@ body {
   margin-bottom: 25px;
 }
 
-
 .header_text p {
   font-style: normal;
   font-weight: 500;
@@ -178,7 +177,6 @@ body {
 }
 .hided_element {
   display: none;
-  
 }
 
 .our_services_car_item img {
@@ -261,6 +259,7 @@ body {
   margin-top: -45px;
   margin-bottom: 14px;
 }
+
 .block_template {
   display: flex;
 }
@@ -591,4 +590,9 @@ body {
 .command_block .car_left_arrow,
 .command_block .car_right_arrow {
   top: 48%;
+}
+
+.our_services_carousel_mob,
+.comand_carousel_mob {
+  display: none !important;
 }
